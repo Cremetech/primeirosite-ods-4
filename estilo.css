@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+html, body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family:'Roboto', sem serifa;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+.content{
+    background-color:rgb(246, 224, 169);
+    color: black;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    padding-left: 5rem;
+}
+
+
+.logo{
+   width: 60px;
+   height: auto;
+   cursor:pointer;
+   display: flex;
+   align-items: center;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.content .list-menu {
+    width: 600px;
+    transition: all 200ms ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.content .list-menu li a {
+    padding: 1rem 1rem 1rem 1rem;
+    color:#1c1919;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+    text-decoration: none;
+}
+
+.content .list-menu li a:hover {
+    background-color:rgb(74, 71, 71);
+    border-bottom: 2px solid #fed001;
+    color:#fed001;
+}
+
+.imagem-fundo {
+    width: 100vw;
+    background-image: url(./img/jovem-lendo-biblioteca-rev.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    height: 100vw;  
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.imagem-fundo .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-fundo h1 {
+    color:rgb(29, 11, 11);;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    
+}
+ 
+.imagem-fundo h2 {
+    color:rgb(29, 11, 11);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 80rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fed001;
+  border-radius: 10px;
+  color:#000000;
+  font-weight: 700;
+  transition: all 400ms ease-in;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+    border: 1px solid #fed001;
+    color: rgb(26, 26, 6);
+}
+
+.wrapperContainer-corfundo{
+    background-color: rgb(227, 165, 90);
+
+}
+.wrapperContainer{
+    padding-top: 1px;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.ODS_4{
+ text-align: center;  
+}
+
+.ods_4_container{
+  display: flex; 
+  text-align:left; 
+  gap: 2rem;
+}
+
+.icone, onu_ods_4_eixos, eixos_novo_marco{
+    width: 51px;
+}
+
+.onu_ods_4_eixos{
+    border: 1px solid #a4a2a2;
+    border-radius: 10px;
+    flex:1;
+}
+
+.onu_ods_4_eixos img{
+    display: block;
+    width: 20%;
+
+}
+
+.onu_ods_4_eixos h3{
+    font-size: 1.8rem;
+}
+
+.onu_ods_4_eixos p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+   
+.onu_ods_4_content{
+    padding: 1rem 1.25rem;
+    border-radius: 0 0 8px 8px;
+    text-align: justify;
+}
+
+.onu_ods_4_content p{
+    font-size: 1.8rem;
+    margin-block-start: 20px;
+    margin-right: 20px;  
+}
+
+.wrapperContainer-dark3{
+    background-color:rgb(167, 194, 217);
+  
+}
+
+.eixos {
+    text-align: center;
+   
+}
+
+.title_marco h2{
+    font-size: 2.8rem;  
+    padding: 1.3rem;
+    text-align: center;
+}
+
+.eixoscontainer {
+    display: flex; 
+    text-align:left; 
+    gap: 2rem;
+}
+
+.eixos_novo_marco h3{
+    font-size: 1.8rem;
+}
+
+.eixos_novo_marco p{
+font-size: 1.6rem;
+}
+
+.eixos_novo_marco{
+    border: 1px solid #a4a2a2;
+    border-radius: 10px;
+    
+}
+
+.eixos_novo_marco img{
+    display: block;
+    width: 10%;
+}
+
+.eixos_pentagrama{
+    display: block;
+    width: 100%;
+    height: 40%; 
+    padding-top: 50px;  
+}
+
+.eixos_novo_marco p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.eixos_content{
+    padding: 1rem 1.25em;
+    border-radius: 0 0 8px 8px;
+    text-align: justify;
+    font-size: 1.8rem;
+    margin-right: 2px;
+}
+
+.section_title h3{
+    font-size: 2.6rem;  
+    padding: 1.3rem;
+    text-align: center;
+}
+
+.eixos_content p{
+    font-size: 1.8rem;
+    margin-block-start: 20px;
+    margin-right: 20px; 
+}
+
+
+.wrapperContainer-dark4{
+    background-color:#fafafa;
+}
+
+.sobre{
+    display: flex;
+    gap: 3rem;
+    text-align: justify;
+}
+
+.sobre {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.8rem;  
+    padding: 1.3rem;
+}
+
+.wrapperContainer-dark5{
+   background-color: #034a8d; 
+}
+
+.footer{
+    display: flex;
+    gap: 4rem;
+}
+
+.footer p{
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgb(225, 222, 222);
+    margin-block: 20px;
+    margin-inline: 100px;
+   text-align: center;
+    padding-bottom: 4px;
+}
+
+.footer h3{
+   font-size: 1.8rem;
+    text-align: center;
+    color: rgb(225, 222, 222);  
+}
